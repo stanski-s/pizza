@@ -5,9 +5,9 @@ const App = () => {
  return (
     <div>
         <h1>Welcome to the Pizza App!</h1>
-        <Pizza name="Pepperoni" description="A delicious pizza topped with pepperoni slices." />
-        <Pizza name="Margherita" description="A classic pizza with tomato sauce, mozzarella cheese, and fresh basil." />
-        <Pizza name="Veggie" description="A healthy pizza loaded with a variety of fresh vegetables." />
+        <Pizza name="Pepperoni" description="A delicious pizza topped with pepperoni slices." image={"/public/pizzas/pepperoni.webp"} />
+        <Pizza name="Hawaiian" description="A classic pizza with tomato sauce, mozzarella cheese, and fresh basil." image={"/public/pizzas/hawaiian.webp"} />
+        <Pizza name="Americano" description="A healthy pizza loaded with a variety of fresh vegetables." image={"/public/pizzas/calabrese.webp"} />
     </div>
  )
 };
